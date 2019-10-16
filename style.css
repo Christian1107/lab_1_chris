@@ -1,0 +1,61 @@
+div {
+  position: relative;
+}
+
+body {
+  background-color: #f9fafc;
+  margin: 10px;
+}
+
+ul {
+  padding: 0px 20px;
+}
+.title {
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+}
+
+.links {
+  font-family: "Open Sans", sans-serif;
+  color: #69696a;
+}
+
+a {
+  text-decoration: none;
+  color: #69696a;
+}
+
+.HireUs {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px 40%;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  font-size: 40px;
+}
+
+p {
+  color: #69696a;
+  font-family: "open Sans", sans-serif;
+  border-left: 4px solid #69696a;
+  padding: 10px;
+}
+
+.scrolldown {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px 40%;
+  width: 100%;
+}
