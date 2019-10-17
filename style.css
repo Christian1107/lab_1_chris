@@ -7,7 +7,7 @@ body {
   margin: 10px;
 }
 
-ul {
+li {
   padding: 0px 20px;
 }
 .title {
@@ -15,14 +15,24 @@ ul {
   color: #000;
 }
 
-.links {
+li {
   font-family: "Open Sans", sans-serif;
   color: #69696a;
+  font-size: 20px;
+  padding: 0;
+}
+h2 {
+  margin-bottom: 0;
 }
 
 a {
   text-decoration: none;
   color: #69696a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 .HireUs {
@@ -40,6 +50,7 @@ h1 {
   font-family: "Open Sans", sans-serif;
   color: #000;
   font-size: 40px;
+  margin: 0px;
 }
 
 p {
@@ -58,4 +69,55 @@ p {
   border-radius: 30px;
   padding: 10px 40%;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*border: 1px solid black;*/
+    align-items: center;
+  }
+  .title {
+    flex-grow: 3;
+  }
+  h2 {
+    margin: 0;
+  }
+  ul {
+    font-size: 12px;
+  }
+  li > h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    padding: 5px;
+  }
+  .HireUs {
+    font-size: 15px;
+    width: auto;
+    padding: 10px 20px;
+  }
+  .part2 > .text {
+    margin-top: 150px;
+    width: 50%;
+    font-size: 17px;
+  }
+
+  .down {
+    width: 10%;
+    height: 100%;
+  }
+  button.scrolldown {
+    padding: 10px;
+
+    position: absolute;
+
+    left: 550px;
+    right: 550px;
+    bottom: -400px;
+  }
 }
